@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Advice generator app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="box">
+      <h4 id="adviceId"></h4>
+      <h2 id="adviceContent"></h2>
+      <img id="pattern" alt="line" style="width: 100%" />
+
+      <button onclick="getAdvice()" id="newAdvice">
+        <img src="./images/icon-dice.svg" alt="dice" />
+      </button>
+    </div>
+  </body>
+</html>
