@@ -24,7 +24,7 @@ body {
 }
 .box {
   width: min(600px, 90%);
-  height: min(350px, 50%);
+  height: min(350px, 60%);
   border-radius: 10px;
   text-align: center;
   padding: 30px;
@@ -62,5 +62,8 @@ body {
 @media screen and (min-width: 600px) {
   .box {
     padding: 15px;
+  }
+  #adviceContent {
+    font-size: 20px;
   }
 }
