@@ -23,8 +23,8 @@ body {
   background-color: var(--dark-blue);
 }
 .box {
-  width: min(600px, 90%);
-  height: min(350px, 60%);
+  width: min(500px, 90%);
+  height: min(350px, 50%);
   border-radius: 10px;
   text-align: center;
   padding: 30px;
@@ -52,14 +52,14 @@ body {
   background-color: var(--neon-green);
   border: 2px solid var(--neon-green);
   border-radius: 50%;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 #newAdvice:hover {
   box-shadow: 0 0 50px var(--neon-green);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .box {
     padding: 15px;
   }
